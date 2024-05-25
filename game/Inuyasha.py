@@ -36,13 +36,14 @@ pygame.mixer.music.play(-1)
 skilleffect = pygame.mixer.Sound("sound/skillsword.mp3")
 
 #tampilan awal 
+template = pygame.image.load("sprites/gunung1.png")
 modelpertama = pygame.image.load("sprites/judul.png")
 modelkeempat = pygame.image.load("sprites/kanji.png")
 modelkedua = pygame.image.load("sprites/Inuyasha.png")
 modelketiga = pygame.image.load("sprites/kagome.png")
 perintah = font1.render("Press Enter to Start", False, "Black")
-versi = font2.render("Version 1.1.0", False, "Black")
-versi1 = font1.render("Version 1.1.0", False, "Black")
+versi = font2.render("Version 1.0.1", False, "Black")
+versi1 = font1.render("Version 1.0.1", False, "Black")
 def redrawGame():
     character.layar.blit(character.latar_belakang, (0,0))
     layar.blit(text,(290, 20))
@@ -82,7 +83,7 @@ while gameON:
         if man.hitbox[1] < mario.hitbox[1] + mario.hitbox[3] and man.hitbox[1] + man.hitbox[3] > mario.hitbox[1]:
             if man.hitbox[0] + man.hitbox[2] >  mario.hitbox[0] and man.hitbox[0] < mario.hitbox[0] + mario.hitbox[2]:
                 man.tertonjok()
-                score -= 1
+                score -= 5
     else:
         fontkata = pygame.font.Font("font/Pixeltype.ttf",80)
         kata = fontkata.render("You Win",False,"Red")
@@ -174,10 +175,10 @@ while gameON:
     if start_game:
         redrawGame()
     else:
-        layar.fill((255, 255,0))
+        layar.blit(template,(0,0))
         layar.blit(modelpertama, (300,50))
-        layar.blit(modelkedua, (200,200))
-        layar.blit(modelketiga, (600,200))
+        layar.blit(modelkedua, (200,230))
+        layar.blit(modelketiga, (600,250))
         layar.blit(modelkeempat, (400,150))
         layar.blit(perintah, (400,300))
         layar.blit(versi, (450,350))
