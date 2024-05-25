@@ -113,7 +113,7 @@ class Character(object):
         self.jumlahjalan = 0
         fontkata = pygame.font.Font("font/Pixeltype.ttf",80)
         kata = fontkata.render("-5",False,"Red")
-        layar.blit(kata,(380,280))
+        layar.blit(kata,(460,280))
         pygame.display.update()
         i = 0 
         while i < 300:
