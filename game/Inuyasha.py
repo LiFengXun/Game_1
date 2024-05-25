@@ -3,7 +3,8 @@ import time
 from character import Character, musuh
 from character import Pembaharuan
 import character
-#Sprites --> credit by Dyz-69
+
+#Sprites --> credit from https://www.spriters-resource.com/submitter/Silverbolt/
 
 pygame.init()
 
