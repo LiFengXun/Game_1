@@ -3,5 +3,11 @@ This is my first project developed using the Python programming language. In thi
 # Gameplay
 It's easy to play this game just defeat the mario and you'll win this game
 
-https://github.com/SilenceHuang-m/Game_1/assets/137615208/069c7249-ccf2-486d-b27d-d0d36861d541
+https://github.com/SilenceHuang-m/Game_1/assets/137615208/47062ac0-229b-4007-af93-2d8ade4dcd03
+
+# Contributions and Development
+If you're interested in contributing to this project, feel free to open a pull request. We welcome suggestions for adding new features, fixing bugs, or improving the overall experience.
+
+
+
 
