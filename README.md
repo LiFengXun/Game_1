@@ -11,7 +11,7 @@ It's easy to play this game just defeat the mario and you'll win this game
 1. Clone the project file.
 2. Make sure you have Python and Pygame installed on your computer/laptop.
 3. Navigate to the project directory in your terminal.
-4. Start the game by using the command [python Inuyasha.py](https://img.shields.io/badge/python%20Inuyasha.py-black).
+4. Start the game by using the command ![Static Badge](https://img.shields.io/badge/python%20Inuyasha.py-grey).
 5. Enjoy your game!
 # Contributions and Development
 If you're interested in contributing to this project, feel free to open a pull request. We welcome suggestions for adding new features, fixing bugs, or improving the overall experience.
